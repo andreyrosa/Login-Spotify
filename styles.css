@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+* {
+    overflow-y: hidden;
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content span {
+    margin-bottom: 1rem;
+    font-weight: 900;
+    font-size: 13px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(217, 218, 220);
+    padding: 15px 0 1px;
+}
+
+#logo {
+    width: 12%;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;    
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 36px;
+}
+
+.login-social span {
+    padding-bottom: 12px;
+    font-weight: 900;
+}
+
+.main-content button {
+    margin-bottom: 12px;
+}
+
+.facebook-login i{
+    font-size: 1.5em;
+    position: relative;
+    left: 1.9em;
+    top: 4px;
+}
+
+.facebook-login h2 {
+    font-size: 14px;
+    font-weight: 900;
+    position: relative;
+    right: 20px;
+    top: 4.5px;
+}
+
+.facebook-login {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(59, 89, 152);
+    color: rgb(248, 248, 248);
+    width: 450px;
+    padding: 10px 33px 20px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 2px;
+}
+
+.facebook-login:hover{
+   outline: 1px solid black;
+}
+
+
+/* Apple Login */
+.apple-login i{
+    font-size: 1.8em;
+    position: relative;
+    left: 1.8em;
+    top: 3.5px;
+}
+
+.apple-login h2 {
+    font-weight: 900;
+    font-size: 14px;
+    position: relative;
+    right: 35px;
+    top: 5px;
+}
+
+.apple-login {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgb(248, 248, 248);
+    width: 450px;
+    padding: 10px 33px 20px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 2px;
+}
+
+.apple-login:hover{
+   outline: 1px solid black;
+}
+
+/* Google Login */
+
+.google-login img{
+    width: 17px;
+    position: relative;
+    left: 3.2em;
+    top: 3.5px;
+}
+
+.google-login h2 {
+    font-weight: 900;
+    font-size: 14px;
+    position: relative;
+    right: 26px;
+    top: 4px;
+}
+
+.google-login {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    color: #8e8e8e;
+    width: 450px;
+    padding: 10px 33px 20px;
+    border: 1px solid #878787;
+    border-radius: 30px;
+    letter-spacing: 2px;
+}
+
+.google-login:hover{
+   border: 1px solid black;
+}
+
+/* Phone Login */
+
+.phone-login {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    color: #8e8e8e;
+    width: 450px;
+    padding: 10px 33px 20px;
+    border: 1px solid #878787;
+    border-radius: 30px;
+    letter-spacing: 2px;
+}
+
+.phone-login h2 {
+    position: relative;
+    font-size: 14px;
+    font-weight: 900;
+    top: 5px;
+}
+.phone-login:hover{
+   outline: 1px solid black;
+}
+
+/* Login area */
+/* Bordas e spacing */
+.login-text {
+    display: flex;
+    flex-direction: column;
+}
+
+
+ul li {
+    list-style: none;
+}
+
+.login-area ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+    font-weight: bold;
+}
+
+.border-left, .border-right {
+    position: relative;
+    bottom: 2px;
+    width: 200px;
+    border-style: inset;
+    border-width: 1px;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+/* Estilização Email/Senha */
+/* Email */
+.input-email {
+    margin-left: 75px;
+    margin-top: 25px;
+}
+
+.input-email p{
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.input-email input{
+    width: 450px;
+    border: 1px solid #878787;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.input-email input:hover{
+    border: 1px solid black;
+}
+/* Senha */
+.input-password {
+    margin-left: 75px;
+    margin-top: 25px;
+}
+
+.input-password p{
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.input-password input{
+    width: 450px;
+    border: 1px solid #878787;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.input-password input:hover{
+    border: 1px solid black;
+}
+
+.forgot{
+    margin-top: 12px;
+    margin-left: 5.5em;
+}
+
+.forgot a{
+    text-decoration: none;
+    color: black;
+}
+
+.forgot a:hover{
+    text-decoration: underline;
+    cursor: text;
+}
+
+/* Botões remember me e login */
+
+.remember-login{
+    justify-content: space-around;
+    display: flex;
+    margin-top: 1px;
+}
+
+.remember {
+  position: relative;
+  top: 23px;
+  right: 0.4em;
+}
+
+.remember input {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 2px;
+}
+
+
+/* Login Button */
+.login-button {
+    position: relative;
+    left: 17px;
+    padding: 12px;
+}
+
+.login-button button{
+    background-color: #1ED760;
+    border-radius: 50px;
+    border: none;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    width: 130px;
+    height: 47px;
+}
+
+.login-button button:hover{
+    transition: 0.2s;
+    transform: scale(1.04); 
+}
+
+/* Barra footer */
+.border-bottom{
+    position: relative;
+    bottom: 2px;
+    width: 450px;
+    border-style: inset;
+    border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13px;
+}
+
+/* Don't have an account? */
+.not-have-account{
+    margin-top: 2em;
+    margin-left: 16em;
+    font-weight: 900;
+}
+
+.not-have-account span {
+    font-size: 15px;
+}
+
+.sign-up-spotify {
+    margin-left: 5.4em;
+    margin-top: 1.8em;
+}
+
+.sign-up-button{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    color: #8e8e8e;
+    font-size: 8px;
+    font-weight: 900;
+    width: 450px;
+    padding: 10px 33px 20px;
+    border: 1px solid #878787;
+    border-radius: 30px;
+    letter-spacing: 2px;
+}
+
+.sign-up-button:hover{
+    border: 1px solid black;
+}
+
+.sign-up-button h2{
+    position: relative;
+    top: 4px;
+}
+
